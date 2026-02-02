@@ -68,7 +68,7 @@ The CutFEMx library requires a FEniCSx installation version 0.9.0 with an extend
     
     cd ../python
     pip install .
-    cd ..
+    cd ../..
     ```
 
 5. Install UFL:
@@ -77,6 +77,7 @@ The CutFEMx library requires a FEniCSx installation version 0.9.0 with an extend
     cd ufl
     git checkout 2024.2.0
     pip install .
+    cd ..
     ```
 
 6. Install runtime integral extended FFCX:
@@ -100,6 +101,7 @@ The CutFEMx library requires a FEniCSx installation version 0.9.0 with an extend
     cd ../python
     pip install -r build-requirements.txt
     pip install --check-build-dependencies --no-build-isolation .
+    cd ../..
     ```
 
 8. Install CutCells:
@@ -113,6 +115,7 @@ The CutFEMx library requires a FEniCSx installation version 0.9.0 with an extend
 
     cd ../python
     pip install .
+    cd ../..
     ```
 
 9. Install CutFEMx:
