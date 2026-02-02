@@ -37,7 +37,7 @@ The CutFEMx library requires a FEniCSx installation version 0.9.0 with an extend
 
 1. Create and activate a new conda environment:
     ```bash
-    conda create -n cutfemx
+    conda create -n cutfemx python=3.12
     conda activate cutfemx
     ```
 
@@ -68,6 +68,7 @@ The CutFEMx library requires a FEniCSx installation version 0.9.0 with an extend
     
     cd ../python
     pip install .
+    cd ..
     ```
 
 5. Install UFL:
