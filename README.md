@@ -85,6 +85,7 @@ The CutFEMx library requires a FEniCSx installation version 0.9.0 with an extend
     git clone git@github.com:sclaus2/ffcx-runtime-0.9.0.git
     cd ffcx
     pip install .
+    cd ..
     ```
 
 7. Install DOLFINx:
